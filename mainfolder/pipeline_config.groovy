@@ -1,5 +1,7 @@
 libraries{
-    gradle
+    maven{
+      msg = "Hello from Maven"
+    }
 }
 
 keywords{

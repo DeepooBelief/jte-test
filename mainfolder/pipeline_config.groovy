@@ -1,6 +1,5 @@
 libraries{
     gradle
-    sonarqube
 }
 
 keywords{

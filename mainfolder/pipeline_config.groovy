@@ -7,6 +7,4 @@ keywords{
   yesOrNo = true
 }
 
-template_methods{
-  build
-}
+

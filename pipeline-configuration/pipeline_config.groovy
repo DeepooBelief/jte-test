@@ -1,6 +1,7 @@
 @merge 
 libraries{
   sonarqube
+  gradle
 }
 
 @merge 

@@ -5,9 +5,7 @@ pipeline {
         stage('Initialize') {
             steps {
                 script {
-                    if (yesOrNo) {
-                        build()
-                    }
+                    build()
                     static_code_analysis()
                 }
             }

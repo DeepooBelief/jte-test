@@ -1,13 +1,10 @@
 libraries{
-    maven{
-      msg = "Hello from Maven"
-    }
+    sonarqube
+    gradle
 }
 
 keywords{
-  buildNumToKeepStr = "2" 
-  yesOrNo = true
-  msg = "Hello from Gradle"
+  RELATIVE_PATH = "bb24_cmoss_xxx"
 }
 
 

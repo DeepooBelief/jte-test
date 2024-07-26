@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
+                echo 'Default jenkinsfile'
                 script {
                     build()
                     static_code_analysis()
